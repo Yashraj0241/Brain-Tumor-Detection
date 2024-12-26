@@ -1,9 +1,9 @@
 # Brain Tumor Detection using Python and Computer Vision
 
-![License](https://img.shields.io/badge/license-MIT-blue)
+<!-- ![License](https://img.shields.io/badge/license-MIT-blue) -->
 
 ## **About the Project**
-This project is designed to detect brain tumors from medical images such as MRI and X-ray scans. The model supports various image formats, including `png`, `jpg`, `jpeg`, and `gif`. Using computer vision and a Convolutional Neural Network (CNN) built with Python and TensorFlow/Keras, the model predicts the type of brain tumor or indicates the absence of a tumor.
+This project is designed to detect brain tumors from medical images such as MRI and X-ray scans. The model supports various image formats, including `png`, `jpg`, `jpeg`, and `gif`. Using computer vision and a Convolutional Neural Network (CNN) built with Python and TensorFlow/Keras, the model predicts the type of brain tumor (Glioma, Meningioma, Pituitary) or indicates the absence of a tumor (No Tumor).
 
 ---
 
@@ -24,6 +24,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
 ## **Features**
 - Detects brain tumors from medical images (MRI, X-ray, etc.).
 - Supports multiple image formats (png, jpg, jpeg, gif).
+- Identifies tumor types: Glioma, Meningioma, Pituitary, or No Tumor.
 - Pre-trained VGG16 model for high accuracy.
 - Web-based user interface using Flask.
 - Image augmentation techniques for robust predictions.
@@ -32,7 +33,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
 
 ## **Dataset and Preprocessing**
 
-1. **Dataset**: The dataset was sourced from Kaggle. It contains labeled images of brain tumors and non-tumorous cases.
+1. **Dataset**: The dataset was sourced from Kaggle. It contains labeled images of brain tumors (Glioma, Meningioma, Pituitary) and non-tumorous cases.
    
 2. **Preprocessing**:
    - Data augmentation techniques used:
@@ -57,7 +58,8 @@ This project is designed to detect brain tumors from medical images such as MRI 
 - **Hyperparameters**:
   - Target size: `224x224`
   - Batch size: `32`
-  - Epochs: `25`
+  - Epochs: `30`
+  - input_shape: (224,224,3)
 
 ---
 
@@ -81,7 +83,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/brain-tumor-detection.git
+   git clone https://github.com/Yashraj0241/Brain-Tumor-Detection
    cd brain-tumor-detection
    ```
 
@@ -107,7 +109,11 @@ This project is designed to detect brain tumors from medical images such as MRI 
 
 1. Upload an MRI or X-ray image in any supported format (png, jpg, jpeg, gif).
 2. Click the "Predict" button to analyze the image.
-3. View the prediction result (e.g., tumor type or no tumor).
+3. View the prediction result:
+   - **Glioma**: Tumor detected in the glial cells.
+   - **Meningioma**: Tumor detected in the meninges.
+   - **Pituitary**: Tumor detected in the pituitary gland.
+   - **No Tumor**: No tumor detected.
 
 ---
 
@@ -148,4 +154,3 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
-
