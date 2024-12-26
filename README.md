@@ -93,7 +93,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
    ```
 
 3. **Download the Pre-trained Model**:
-   - Ensure the `model.h5` file is in the root directory.
+   - Ensure the `brain_tumor10.h5` file is in the root directory.
 
 4. **Run the Flask Application**:
    ```bash
