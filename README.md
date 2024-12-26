@@ -119,10 +119,9 @@ This project is designed to detect brain tumors from medical images such as MRI 
 
 ## **Demo**
 
-- A live demo is available at: [Live Demo Link](https://example.com) *(if applicable)*
 - **Screenshots**:
   
-  ![Upload Image Screen](images/upload_screen.png)
+  ![Upload Image Screen]([images/upload_screen.png](https://github.com/Yashraj0241/Brain-Tumor-Detection/blob/main/static/Screenshot%20(3).png))
   
   ![Prediction Result](images/result_screen.png)
 
