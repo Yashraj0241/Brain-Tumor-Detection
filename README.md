@@ -117,7 +117,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
 
 ---
 
-## **Demo**
+## **Result**
 
 - **Screenshots**:
   
