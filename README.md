@@ -15,9 +15,11 @@ This project is designed to detect brain tumors from medical images such as MRI 
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
+- [Result](#Result)
+ <!--
+ [Contributing](#contributing)
+ [License](#license)
+  -->
 
 ---
 
