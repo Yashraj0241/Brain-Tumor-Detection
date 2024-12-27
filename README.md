@@ -125,7 +125,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
   ![Prediction Result](https://github.com/Yashraj0241/Brain-Tumor-Detection/blob/c3ec5d69053bd40c50622cc613de6a6e5fefd860/static/Screenshot%20(3).png)
 
 ---
-
+<!--
 ## **Contributing**
 
 Contributions are welcome! Please follow these steps:
@@ -151,4 +151,4 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
----
+--- -->
