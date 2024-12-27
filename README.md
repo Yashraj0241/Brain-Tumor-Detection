@@ -99,7 +99,7 @@ This project is designed to detect brain tumors from medical images such as MRI 
 
 4. **Run the Flask Application**:
    ```bash
-   python app.py
+   python mainbrain.py
    ```
 
 5. **Access the Web Application**:
